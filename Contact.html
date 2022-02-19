@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <h1>My Contact Detials</h1>
+    <address>
+        Akbarpur. Behrampur, Near K.B Modern School <br> Ghaziabad, Pin Code-291009
+    </address>
+    <p>
+        Mobie No.: 9205453329 <br>
+        Email: shintyadav34@gmail.com
+    </p>
+    <hr size="3" noshade="0px">
+  <form action="mailto:shintuyadv3@gmail.com" method="post" enctype="text/plain">
+      <p>
+    <label for="Name">First Name:</label>
+      <input type="text" name="First-Name" placeholder="Enter Name" required>
+      <label for="Last-Name">Last Name:</label>
+      <input type="text" name="Last-Name" id="Surname" placeholder="Enter Last Name" required>
+    </p>
+    <p>
+        <label for="Username">Username:</label>
+        <input type="text" name="Username" id="name" placeholder="Enter Username" max="10" required>
+    </p>
+    <p>
+        <label for="E-mail">Email:</label>
+        <input type="email" name="E-mail" id="Email" placeholder="Enter Email" required>
+    </p>
+    <p>
+        <label for="Sex">Gender:</label>
+        <input type="radio" name="Sex" id="male" checked>Male
+        <input type="radio" name="Sex" id="female">Female
+        <input type="radio" name="Sex" id="others">Others
+    </p>
+   <p>
+    <label for="Subject">Subject:</label>
+    <select name="Subject" id="subject">
+        <option value="Select">Select</option>
+        <option value="English">English</option>
+        <option value="Hindi" selected >Hindi</option>
+        <option value="Maths">Maths</option>
+        <option value="Science">Science</option>
+        <option value="Computer">Computer</option>
+    </select>
+   </p>
+   <p>
+       <label for="Movies">Favourite Movies:</label>
+       <input type="checkbox" name="Movie" id="Avenger">Avenger
+       <input type="checkbox" name="Movie" id="Star-Wars">Star-War
+       <input type="checkbox" name="Movie" id="Loki" checked>Loki
+       
+   </p>
+    <p>
+        <label for="Password">Password:</label>
+        <input type="password" name="Password" id="Password" placeholder="Enter Password">
+    </p>
+    <p>
+        <label for="color">Choose Color:</label>
+        <input type="color" name="color" id="Colour">
+        <label for="Volume">Volume:</label>
+        <input type="range" name="Volume" id="Sound" step="2" min="0" max="20">
+    </p>
+    <p>
+        <label for="Search">Search:</label>
+    <input type="search" name="Search" id="">
+    <label for="File">Upload</label>
+    <input type="file" name="File " id="">
+    </p>
+    <label for="Message">Message:</label><br>
+    <textarea name="Message" id="" cols="30" rows="10"></textarea>
+    <p>
+        <input type="submit" value="Submit">
+        <button>Submit!!</button>
+    </p>
+  </form>  
+    
+</body>
+</html>
